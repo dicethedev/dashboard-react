@@ -6,6 +6,29 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Materials for this project
+
+I use SASS for styling instead of CSS
+so I install "npm install add sass"
+
+npm install react-router-dom
+
+Material Icons
+npm install @mui/material @emotion/react @emotion/styled
+
+SVG Icons
+npm install @mui/icons-material
+
+Progress Bar
+npm install react-circular-progressbar
+
+Chart Diagram
+You can use Recharts or React-vis for the Chart Implementation
+In this project I used Recharts (install it in your project ( npm install recharts))
+
+Data Table functionality from Material Icons
+npm install @mui/x-data-grid
+
 ### `npm start`
 
 Runs the app in the development mode.\
