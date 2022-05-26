@@ -29,6 +29,11 @@ In this project I used Recharts (install it in your project ( npm install rechar
 Data Table functionality from Material Icons
 npm install @mui/x-data-grid
 
+### Firebase is also added to this project
+MAake sure you register your application on firebase.google.com
+
+npm install  firebase
+
 ### `npm start`
 
 Runs the app in the development mode.\
