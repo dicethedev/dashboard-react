@@ -1,6 +1,8 @@
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+
 const firebaseConfig = {
-  apiKey: process.env.REACT_FIREBASE_API_KEY,
+  apiKey: "AIzaSyAh302lV2r6O9ufg7I5sJz9pvdBiarhLnA",
   authDomain: "testing-auth-3ebb4.firebaseapp.com",
   projectId: "testing-auth-3ebb4",
   storageBucket: "testing-auth-3ebb4.appspot.com",
@@ -10,3 +12,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+//export it so that it can be use in the login page
+export const auth = getAuth() 
