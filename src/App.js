@@ -28,7 +28,7 @@ function App() {
   };
   //======================The End of the Protecting Fuction ==============
 
-   console.log(currentUser)
+  //  console.log(currentUser)
 
 
   return (

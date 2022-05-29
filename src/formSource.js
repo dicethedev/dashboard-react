@@ -1,54 +1,109 @@
+//Before
+// export const userInputs = [
 
+//      {
+//           id: 1,
+//           label: 'username',
+//           type: 'text',
+//           placeholder: 'john_snow',
+//      },
+
+//        {
+//           id: 2,
+//           label: 'Name $ Username',
+//           type: 'text',
+//           placeholder: 'John Snow',
+//      },
+     
+//        {
+//           id: 3,
+//           label: 'Email',
+//           type: 'email',
+//           placeholder: 'john_snow@gmail.com',
+//      },
+
+//        {
+//           id: 4,
+//           label: 'Phone',
+//           type: 'text',
+//           placeholder: '+1 234 567 89',
+//      },
+
+//        {
+//           id: 5,
+//           label: 'Password',
+//           type: 'password',
+//      },
+
+//        {
+//           id: 6,
+//           label: 'Address',
+//           type: 'text',
+//            placeholder: 'Elton St. 234 Garden Yd. NewYork',
+//      },
+
+//          {
+//           id: 7,
+//           label: 'Country',
+//           type: 'text',
+//            placeholder: 'USA',
+//      },
+// ];
+
+
+//all the ID here are use on firestore database on Firebase
+//Now
 export const userInputs = [
 
      {
-          id: 1,
+          id: "userName",
           label: 'username',
           type: 'text',
           placeholder: 'john_snow',
      },
 
        {
-          id: 2,
-          label: 'Name $ Username',
+          id: "displayName",
+          label: 'Name and Username',
           type: 'text',
           placeholder: 'John Snow',
      },
      
        {
-          id: 3,
+          id: "email",
           label: 'Email',
           type: 'email',
           placeholder: 'john_snow@gmail.com',
      },
 
        {
-          id: 4,
+          id: "phone",
           label: 'Phone',
           type: 'text',
           placeholder: '+1 234 567 89',
      },
 
        {
-          id: 5,
+          id: "password",
           label: 'Password',
           type: 'password',
      },
 
        {
-          id: 6,
+          id: "address",
           label: 'Address',
           type: 'text',
            placeholder: 'Elton St. 234 Garden Yd. NewYork',
      },
 
          {
-          id: 7,
+          id: "country",
           label: 'Country',
           type: 'text',
            placeholder: 'USA',
      },
 ];
+
 
 export const productInputs = [
      {
